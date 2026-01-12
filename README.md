@@ -61,9 +61,13 @@ Below is a guide on suggested data processing:
 ## Appendix Materials for the Paper
 
 1. Specifications for buildings selected in the experiment.
-   ![Figure 1: target building specifciations.](./pic/fig_evaluation_dataset.png)
+   <p align="center">
+      <img src="./pic/fig_evaluation_dataset.png" width="600" title="Figure 1: target building specifciations.">
+   </p>
 2. A real case study of two weeks of synthetic data generated for Building B2 in the paper, which typically exhibits higher energy consumption in winter and lower consumption in summer, accompanied by several irregular fluctuations. The results demonstrate that DecAug can generate realistic and diverse load patterns even when trained on a very limited dataset of only two weeks.
-   ![Figure 2: example of synthetic data.](./pic/fig_example_synthetic_data.png)
+   <p align="center">
+      <img src="./pic/fig_example_synthetic_data.png" width="600" title="Figure 2: example of synthetic data.">
+   </p>
 
 ## 📜 License
 
