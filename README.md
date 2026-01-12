@@ -58,6 +58,13 @@ Below is a guide on suggested data processing:
 - Normalize load values if needed
 - Apply sliding windows if you wish to create multiple overlapping samples per building
 
+## Appendix Materials for the Paper
+
+1. Specifications for buildings selected in the experiment.
+   ![Figure 1: target building specifciations.](./pic/fig_evaluation_dataset.png)
+2. A real case study of two weeks of synthetic data generated for Building B2 in the paper, which typically exhibits higher energy consumption in winter and lower consumption in summer, accompanied by several irregular fluctuations. The results demonstrate that DecAug can generate realistic and diverse load patterns even when trained on a very limited dataset of only two weeks.
+   ![Figure 2: example of synthetic data.](./pic/fig_example_synthetic_data.png)
+
 ## 📜 License
 
 This dataset is released under the **CC BY-NC 4.0** License. You are free to use, adapt, and share it for non-commercial research purposes, provided that you cite the original paper.
