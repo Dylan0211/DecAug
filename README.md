@@ -1,13 +1,13 @@
-# DEBT Synthetic Load Dataset
+# DecAug Synthetic Load Dataset
 
-This repository provides the synthetic load dataset generated using the **DEBT** framework, as described in our paper:
+This repository provides the synthetic load dataset generated using the **DecAug** framework, as described in our paper:
 
-> **"Decomposition-based Building Load Time-series Data Generation: A Divide and Conquer Approach"**
+> **"Enhancing Observability for Cold-Start Buildings: A Decomposition-Based Demand Synthesis Approach"**
 > \[Under review at IEEE Transactions on Smart Grid]
 
 ## 📘 Overview
 
-The **DEBT Dataset** aims to support research in energy consumption forecasting and synthetic data generation. It simulates realistic electricity load profiles based on the learned consumption patterns.
+The **DecAug Dataset** aims to support research in energy consumption forecasting and synthetic data generation. It simulates realistic electricity load profiles based on the learned consumption patterns.
 
 We also plan to release the full source code upon the acceptance of the associated paper.
 
@@ -18,7 +18,7 @@ to be continued
 
 ## 📂 Data Source
 
-The original real-world load data used to train the DEBT model is the **the Building Data Genome Project 2**, which contains electricity consumption data for 19 different locations from around the world. The Genome dataset is publicly available and can be accessed at the following link:
+The original real-world load data used to train the DecAug model is the **the Building Data Genome Project 2**, which contains electricity consumption data for 19 different locations from around the world. The Genome dataset is publicly available and can be accessed at the following link:
 
 🔗 [https://github.com/buds-lab/building-data-genome-project-2](https://github.com/buds-lab/building-data-genome-project-2)
 
