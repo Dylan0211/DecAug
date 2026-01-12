@@ -58,7 +58,7 @@ Below is a guide on suggested data processing:
 - Normalize load values if needed
 - Apply sliding windows if you wish to create multiple overlapping samples per building
 
-## Appendix Materials for the Paper
+## Appendix Materials
 
 1. Specifications for buildings selected in the experiment.
    <p align="center">
