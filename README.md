@@ -13,8 +13,9 @@ We also plan to release the full source code upon the acceptance of the associat
 
 ## 🧩 Dataset Description
 
-The dataset contains electricity load data generated for different buildings with distinct seasons and data lengths. The dataset is generated using a decomposition-based data generation approach trained on a public dataset of more than 1000 real-world building data collected for two years.
+The dataset contains electricity load data generated for 150 buildings (50 buildings each for **education**, **office**, and **public** category) with distinct seasons and data lengths. The dataset is generated using a decomposition-based data generation approach trained on a public dataset of more than 1000 real-world building data collected for two years.
 
+We plan to release the complete generated synthetic dataset upon the acceptance of the associated paper.
 
 ## 📂 Data Source
 
