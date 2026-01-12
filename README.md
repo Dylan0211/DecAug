@@ -13,12 +13,12 @@ We also plan to release the full source code upon the acceptance of the associat
 
 ## 🧩 Dataset Description
 
-to be continued
+The dataset contains electricity load data generated for different buildings with distinct seasons and data lengths. The dataset is generated using a decomposition-based data generation approach trained on a public dataset of more than 1000 real-world building data collected for two years.
 
 
 ## 📂 Data Source
 
-The original real-world load data used to train the DecAug model is the **the Building Data Genome Project 2**, which contains electricity consumption data for 19 different locations from around the world. The Genome dataset is publicly available and can be accessed at the following link:
+The original real-world load data used to train the DecAug model is the **the Building Data Genome Project 2**, which contains electricity consumption data for 1636 buildings in 19 different locations from around the world. The Genome dataset is publicly available and can be accessed at the following link:
 
 🔗 [https://github.com/buds-lab/building-data-genome-project-2](https://github.com/buds-lab/building-data-genome-project-2)
 
@@ -32,27 +32,56 @@ Detailed methodology is available in Section III of our paper.
 
 ## 📁 Files
 
-to be continued
+CSV files under the directory `generated_data/` correspond to tabular data, which contains the generated hourly-sampled data for buildings in different seasons across diverse data length.
+
 
 ## 📊 Format Example
 
-to be continued
+For instance, `generated_data/spring_15days.csv` refers to the generated 15-day spring data with a one-hour interval. The first few rows and columns in this csv file is shown below.
+
+|  | Fox_education_Virginia | Fox_education_Lily | Fox_education_Kris |
+| :-----: | :----: | :----: | :----: |
+| 1 | 4.125 | 160.945 | 37.605 |
+| 2 | 5 | 161.81 | 39.09 |
+| 3 | 3.755 | 158.66 | 43.54 |
+| 4 | 3.545 | 167.625 | 36.305 |
+| 5 | 22.345 | 161.505 | 34.335 |
+
+The CSV files in `generated_data/` contain tabular data for four seasons (i.e., spring, summer, autumn, winter) and three data lengths (i.e., 15 days, 30 days, 90 days).
+
 
 ## 🛠️ How to Use the Dataset
 
-to be continued
-
+This dataset is designed to support downstream tasks such as residential load forecasting.
+Below is a guide on suggested data processing:
+- Normalize load values if needed
+- Apply sliding windows if you wish to create multiple overlapping samples per building
 
 ## 📜 License
 
-to be continued
+This dataset is released under the **CC BY-NC 4.0** License. You are free to use, adapt, and share it for non-commercial research purposes, provided that you cite the original paper.
 
 
 ## 📝 Citation
 
-to be continued
+If you use this dataset in your research, please cite:
+```bash
+@article{DecAug2026,
+  title={Enhancing Observability for Cold-Start Buildings: A Decomposition-Based Demand Synthesis Approach},
+  author={Yang Deng and others},
+  journal={IEEE Transactions on Smart Grid},
+  year={2026},
+  note={Under review}
+}
+```
 
 
 ## 📬 Contact
 
-to be continued
+For questions or collaborations, please contact:
+
+Yang Deng
+
+The Hong Kong Polytechnic University
+
+Email: marco.deng@polyu.edu.hk
