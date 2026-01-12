@@ -65,7 +65,7 @@ This dataset is released under the **CC BY-NC 4.0** License. You are free to use
 ## 📝 Citation
 
 If you use this dataset in your research, please cite:
-```bash
+```bibtex
 @article{DecAug2026,
   title={Enhancing Observability for Cold-Start Buildings: A Decomposition-Based Demand Synthesis Approach},
   author={Yang Deng and others},
