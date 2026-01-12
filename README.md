@@ -41,11 +41,11 @@ For instance, `generated_data/spring_15days.csv` refers to the generated 15-day 
 
 |  | Fox_education_Virginia | Fox_education_Lily | Fox_education_Kris |
 | :-----: | :----: | :----: | :----: |
-| 1 | 4.125 | 160.945 | 37.605 |
-| 2 | 5 | 161.81 | 39.09 |
-| 3 | 3.755 | 158.66 | 43.54 |
-| 4 | 3.545 | 167.625 | 36.305 |
-| 5 | 22.345 | 161.505 | 34.335 |
+| 1 | 4.12 | 160.94 | 37.61 |
+| 2 | 5.00 | 161.81 | 39.09 |
+| 3 | 3.75 | 158.66 | 43.54 |
+| 4 | 3.54 | 167.62 | 36.30 |
+| 5 | 22.34 | 161.50 | 34.34 |
 
 The CSV files in `generated_data/` contain tabular data for four seasons (i.e., spring, summer, autumn, winter) and three data lengths (i.e., 15 days, 30 days, 90 days).
 
